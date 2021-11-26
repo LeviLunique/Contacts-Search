@@ -11,6 +11,8 @@
 		15408E8A27504C58003413EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15408E8927504C58003413EA /* ContentView.swift */; };
 		15408E8C27504C5A003413EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15408E8B27504C5A003413EA /* Assets.xcassets */; };
 		15408E8F27504C5A003413EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15408E8E27504C5A003413EA /* Preview Assets.xcassets */; };
+		15408E9627505DC3003413EA /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15408E9527505DC3003413EA /* DataModel.swift */; };
+		15408E9827506782003413EA /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15408E9727506782003413EA /* UserListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		15408E8927504C58003413EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		15408E8B27504C5A003413EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15408E8E27504C5A003413EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15408E9527505DC3003413EA /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		15408E9727506782003413EA /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				15408E8927504C58003413EA /* ContentView.swift */,
 				15408E8B27504C5A003413EA /* Assets.xcassets */,
 				15408E8D27504C5A003413EA /* Preview Content */,
+				15408E9527505DC3003413EA /* DataModel.swift */,
+				15408E9727506782003413EA /* UserListViewModel.swift */,
 			);
 			path = "Contacts Search";
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				15408E8A27504C58003413EA /* ContentView.swift in Sources */,
+				15408E9827506782003413EA /* UserListViewModel.swift in Sources */,
 				15408E8827504C58003413EA /* Contacts_SearchApp.swift in Sources */,
+				15408E9627505DC3003413EA /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
